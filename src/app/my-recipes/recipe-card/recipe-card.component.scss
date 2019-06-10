@@ -1,0 +1,31 @@
+.recipe-card {
+    height: 250px;
+    width: 325px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0 6px 20px 0 rgba(13,51,32,0.1);
+    font-family: Arial, Helvetica, sans-serif;
+
+    img {
+        height: 150px;
+        width: 325px;
+        object-fit: cover;
+    }
+
+    h3 {
+        text-align: left;
+        color: #030F09;
+        font-size: 20px;
+        font-weight: 600;
+        margin: 5px;
+      }
+}
+
+#recipe-details {
+    p {
+        text-align: left;
+        float: left;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}

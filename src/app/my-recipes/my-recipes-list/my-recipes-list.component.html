@@ -1,0 +1,15 @@
+<div>
+  <h1>My Recipes</h1>
+  <div *ngIf="(recipes$ | async) as recipes; else loading">
+    <mat-grid-list cols="4" rowHeight="300px">
+      <mat-grid-tile id="add-recipe-card" [colspan]="1" [rowspan]="1" (click)="openDialog()">
+        <img src="../../../assets/AddSquareIcon.png" alt="Add Recipe" />
+        <p>Add a Recipe</p>
+      </mat-grid-tile>
+      <mat-grid-tile [colspan]="1" [rowspan]="1" *ngFor="let recipe of recipes" routerLink="/detail/{{recipe.id}}">
+        <app-recipe-card [recipe]="recipe"></app-recipe-card>
+      </mat-grid-tile>
+    </mat-grid-list>
+  </div>
+  <ng-template #loading>Loading Your Recipes...</ng-template>
+</div>

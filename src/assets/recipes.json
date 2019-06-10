@@ -1,0 +1,59 @@
+[
+    {
+        "id":1,
+        "title": "Harissa Roasted Carrots", 
+        "imageUrl": "https://assets.epicurious.com/photos/56c5014af43c4a4d07731ad0/6:4/w_620%2Ch_413/51223940_spice-crusted-carrots_1x1.jpg", 
+        "yield": 2,
+        "prepTime": 10,
+        "cookTime": 40
+    },
+    {
+        "id":2,
+        "title": "Teriyaki Salmon Bowl", 
+        "imageUrl": "http://www.simplehealthykitchen.com/wp-content/uploads/2016/02/teriyaki-salmon-bowl-featured.jpg", 
+        "yield": 2,
+        "prepTime": 25,
+        "cookTime": 20
+    },
+    {
+        "id":3,
+        "title": "Carnitas Tacos", 
+        "imageUrl": "https://www.aberdeenskitchen.com/wp-content/uploads/2017/11/Slow-Cooker-Pork-Carnitas-Tacos-2.jpg", 
+        "yield": 6,
+        "prepTime": 20,
+        "cookTime": 120
+    },
+    {
+        "id":4,
+        "title": "Shrimp and Grits", 
+        "imageUrl": "http://littlespicejar.com/wp-content/uploads/2016/02/Cajun-Shrimp-and-Grits-with-Garlic-Kale-4.jpg", 
+        "ingredients": ["Grits", "Butter", "Shrimp", "Garlic", "Salt"],
+        "yield": 2,
+        "prepTime": 10,
+        "cookTime": 40
+    },
+    {
+        "id":5,
+        "title": "Spaghetti Squash with Bacon", 
+        "imageUrl": "https://img.buzzfeed.com/buzzfeed-static/static/2015-03/6/14/enhanced/webdr15/enhanced-10020-1425669962-15.jpg?downsize=700:*&output-format=auto&output-quality=auto", 
+        "yield": 2,
+        "prepTime": 10,
+        "cookTime": 60
+    },
+    {
+        "id":6,
+        "title": "BBQ Brisket Grilled Cheese", 
+        "imageUrl": "http://cdn.sheknows.com/articles/2013/08/Mike/CM/BBQ-briskey-grilled-cheese.jpg", 
+        "yield": 1,
+        "prepTime": 10,
+        "cookTime": 15
+    },
+    {
+        "id":7,
+        "title": "Salmon with Creamy Dill Sauce", 
+        "imageUrl": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.myrecipes.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2Fmedium_2x%2Fpublic%2Fimage%2Frecipes%2Fck%2F07%2F08%2Fsalmon-ck-1646424-x.jpg%3Fitok%3DtjZ6KHs5&w=450&c=sc&poi=face&q=85", 
+        "yield": 2,
+        "prepTime": 10,
+        "cookTime": 25
+    }
+]
